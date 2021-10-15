@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+#particles-js
+{
+  height: 100%;
+  background: #574b90;
+}
+html,body{
+  display: grid;
+  height: 100%;
+}
+.center{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.outer{
+  margin: 0 50px;
+  position:relative;
+  top:500px;
+  background: linear-gradient(#2ecc71, #1abc9c);
+}
+.dwld{
+  height: 70px;
+  width: 220px;
+  border-radius: 50px;
+}
+.outer button, .outer span{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.outer button{
+  background: #111;
+  color: #f2f2f2;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.dwld button{
+  height: 60px;
+  width: 210px;
+  border-radius: 50px;
+}
+.goto{
+  margin: 0 15px;
+  position:relative;
+  bottom: 35px;
+}
+.goto button{
+  height: 30px;
+  width: 90px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  background:#574b90;
+  color:#fff;
+  transition: 0.5s;
+}
+.goto:hover button{
+  height: 30px;
+  width: 90px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  background:#fff;
+  color:#000;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.topb{
+  display: flex;
+}
